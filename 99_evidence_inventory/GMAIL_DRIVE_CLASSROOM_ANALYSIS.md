@@ -43,7 +43,9 @@ Drive search surfaced multiple high-value portfolio documents:
 
 ### Google Classroom
 
-No separate Google Classroom API connector was available in this session, so Classroom was analyzed through Gmail notification evidence.
+The first pass had only Gmail notification evidence. A deeper browser check found that the real browser session has the ULAB account available at `https://classroom.google.com/u/1/h`, showing `Sowrav Chowdhury (183016008) (sowrav.chowdhury.eee@ulab.edu.bd)`.
+
+The Google Drive plugin connector itself was authenticated as `mail.sowravchy@gmail.com`, so ULAB Drive/Classroom contents may not appear through the connector. The ULAB Classroom browser session is therefore the better source for Classroom evidence.
 
 Confirmed Classroom/course signals include:
 
@@ -54,6 +56,22 @@ Confirmed Classroom/course signals include:
 - Chemistry lab announcements.
 - Essential Skills course messages referencing Google Classroom.
 - EEE/CSE online class and course-admin notices.
+- Summer 23 EEE 426.
+- Spring 23 EEE 430.
+- Spring 23 EEE 404 / ETE 312.
+- Lab Electrical Circuits I EEE 1101.
+- EEE 425/ETE 447 VLSI.
+- EEE 426/ETE 448 VLSI Lab.
+- Control System Lab Sum'22 EEE 404.
+- EEE 401 Solid State Devices.
+- EEE 433/ETE 445 Power Electronics.
+- EEE 434/ETE 446 Power Electronics Lab.
+- EEE 316 Electrical Services Design Lab.
+- Control System Summer 22 EEE 403.
+- Digital Signal Processing Lab Spring 2021.
+- Digital Electronics / Digital Electronics Lab.
+
+See `ULAB_CLASSROOM_DEEP_INDEX.md` for direct Drive folder links and a VLSI Lab folder inventory.
 
 ## Best Portfolio Grouping
 
