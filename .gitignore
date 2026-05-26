@@ -1,0 +1,18 @@
+# Local/system noise
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+
+# Secrets and OAuth/API material
+.env
+credentials.json
+token.json
+client_secret*.json
+*api*key*
+*github*token*
+
+# Large raw dumps that should stay out unless intentionally curated
+raw_academic_data/
+node_modules/
+*.zip

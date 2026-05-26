@@ -1,0 +1,254 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[a4paper,margin=1.8cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{setspace}
+\pgfplotsset{compat=1.18}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{4pt}
+\setlist[enumerate]{itemsep=5pt,topsep=4pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Cambridge O Level Mathematics D (4024)}
+\rhead{Targeted Error-Focus Practice}
+\cfoot{Page \thepage\ of \pageref{LastPage}}
+
+\newcommand{\marks}[1]{\hfill[#1]}
+\newcommand{\answerline}{\vspace{0.55cm}\hrule\vspace{0.55cm}}
+\newcommand{\workspace}[1]{\vspace*{#1}}
+\newcommand{\gridspace}[1]{
+    \begin{tikzpicture}
+        \draw[step=0.5cm, very thin, gray!35] (0,0) grid (16,#1);
+        \draw[thick, gray!55] (0,0) rectangle (16,#1);
+    \end{tikzpicture}
+}
+
+\begin{document}
+
+{\Large \textbf{Targeted Practice Paper (Mistake Repair)}}\\
+\textbf{Time allowed:} 1 hour 30 minutes \\
+\textbf{Instructions:}
+\begin{itemize}[leftmargin=1.2cm]
+    \item Answer all questions.
+    \item Show full working.
+    \item Give non-exact answers to 3 significant figures unless stated otherwise.
+\end{itemize}
+
+\textbf{Total: 60 marks}
+\vspace{0.35cm}
+\hrule
+\vspace{0.4cm}
+
+\textbf{Section A: Geometry (Cosine Rule and Angle Sense)}\\
+
+\textbf{1.} In triangle $ABC$, $AB=8.5$ cm, $AC=6$ cm and $BC=7$ cm.
+\begin{center}
+\begin{tikzpicture}[scale=0.7]
+    \coordinate (A) at (0,0);
+    \coordinate (B) at (8.5,0);
+    \coordinate (C) at (3.5,4.6);
+    \draw[thick] (A)--(B)--(C)--cycle;
+    \node[below left] at (A) {$A$};
+    \node[below right] at (B) {$B$};
+    \node[above] at (C) {$C$};
+    \node[below] at (4.25,0) {$8.5\text{ cm}$};
+    \node[left] at (1.7,2.3) {$6\text{ cm}$};
+    \node[right] at (6.0,2.3) {$7\text{ cm}$};
+\end{tikzpicture}
+\end{center}
+\begin{enumerate}[label=(\alph*)]
+    \item Calculate $\angle BAC$. Give your answer to the nearest degree. \marks{3}
+    \gridspace{4}
+    \item Explain briefly why your answer should be less than $60^\circ$. \marks{1}
+    \gridspace{2}
+\end{enumerate}
+
+\textbf{2.} In triangle $PQR$, $PQ=11$ cm, $PR=9$ cm and $QR=7$ cm.
+\begin{center}
+\begin{tikzpicture}[scale=0.68]
+    \coordinate (P) at (0,0);
+    \coordinate (Q) at (11,0);
+    \coordinate (R) at (4.5,6.2);
+    \draw[thick] (P)--(Q)--(R)--cycle;
+    \node[below left] at (P) {$P$};
+    \node[below right] at (Q) {$Q$};
+    \node[above] at (R) {$R$};
+    \node[below] at (5.5,0) {$11\text{ cm}$};
+    \node[left] at (2.2,3.2) {$9\text{ cm}$};
+    \node[right] at (7.8,3.2) {$7\text{ cm}$};
+\end{tikzpicture}
+\end{center}
+\begin{enumerate}[label=(\alph*)]
+    \item Find $\angle QPR$, correct to 1 decimal place. \marks{3}
+    \gridspace{4}
+    \item State whether $\angle QPR$ is acute, right, or obtuse. \marks{1}
+    \gridspace{2}
+\end{enumerate}
+
+\textbf{3.} In triangle $XYZ$, $XY=13$ cm, $XZ=10$ cm and $YZ=12$ cm.
+\begin{center}
+\begin{tikzpicture}[scale=0.66]
+    \coordinate (X) at (0,0);
+    \coordinate (Y) at (13,0);
+    \coordinate (Z) at (5.7,8.2);
+    \draw[thick] (X)--(Y)--(Z)--cycle;
+    \node[below left] at (X) {$X$};
+    \node[below right] at (Y) {$Y$};
+    \node[above] at (Z) {$Z$};
+    \node[below] at (6.5,0) {$13\text{ cm}$};
+    \node[left] at (2.8,4.1) {$10\text{ cm}$};
+    \node[right] at (9.4,4.1) {$12\text{ cm}$};
+\end{tikzpicture}
+\end{center}
+\begin{enumerate}[label=(\alph*)]
+    \item Find $\angle YXZ$, correct to 1 decimal place. \marks{3}
+    \gridspace{4}
+    \item If a student wrote $79^\circ$, comment on whether this is reasonable and why. \marks{2}
+    \gridspace{3}
+\end{enumerate}
+
+\newpage
+\textbf{Section B: Standard Form and Powers of 10}\\
+
+\textbf{4.} Work out each of the following. Give each answer in standard form.
+\begin{enumerate}[label=(\alph*)]
+    \item $\dfrac{2.21\times10^4}{6.5\times10^6}$ \marks{3}
+    \gridspace{3}
+    \item $\dfrac{7.2\times10^5}{3\times10^8}$ \marks{3}
+    \gridspace{3}
+    \item $\left(4.5\times10^{-3}\right)\left(2\times10^6\right)$ \marks{3}
+    \gridspace{3}
+    \item $\dfrac{9.6\times10^{-4}}{1.2\times10^{-7}}$ \marks{3}
+    \gridspace{3}
+\end{enumerate}
+
+\textbf{5.} A student writes
+\[
+0.34\times10^{-2}=3.4\times10^{-2}.
+\]
+Explain the mistake and write the correct standard form. \marks{2}
+\gridspace{3}
+
+\textbf{Section C: Sequences}\\
+
+\textbf{6.} The first five terms of a sequence are
+\[
+3,\ 8,\ 13,\ 18,\ 23.
+\]
+\begin{enumerate}[label=(\alph*)]
+    \item Write down the next two terms. \marks{2}
+    \gridspace{2}
+    \item Find an expression for the $n$th term. \marks{2}
+    \gridspace{3}
+    \item Find the 25th term. \marks{2}
+    \gridspace{2}
+\end{enumerate}
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+    width=9cm,
+    height=5.2cm,
+    xmin=0, xmax=8,
+    ymin=0, ymax=35,
+    xlabel={$n$},
+    ylabel={$T_n$},
+    grid=both,
+    minor tick num=1
+]
+\addplot[only marks, mark=*, mark size=2pt] coordinates {(1,3) (2,8) (3,13) (4,18) (5,23)};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+\textbf{7.} For another sequence, the first five terms are
+\[
+\frac{3}{4},\ \frac{8}{9},\ \frac{13}{16},\ \frac{18}{25},\ \frac{23}{36}.
+\]
+\begin{enumerate}[label=(\alph*)]
+    \item Find a formula for $T_n$. \marks{4}
+    \gridspace{4}
+    \item Hence find $T_{25}$. \marks{2}
+    \gridspace{3}
+\end{enumerate}
+
+\newpage
+\textbf{Section D: Exponential Growth and Year Finding}\\
+
+\textbf{8.} The population of a town on 1 January 2023 was 102885.\\
+After this date, the population increases exponentially at a rate of $1.6\%$ per year.
+\begin{enumerate}[label=(\alph*)]
+    \item Write down a model for the population $P$ after $n$ years. \marks{2}
+    \gridspace{2}
+    \item Find the first year in which the population becomes more than 120000. \marks{4}
+    \gridspace{4}
+\end{enumerate}
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+    width=10cm,
+    height=5.5cm,
+    xmin=0, xmax=12,
+    ymin=100000, ymax=125000,
+    xlabel={Years after 2023},
+    ylabel={Population},
+    grid=major
+]
+\addplot[domain=0:12, samples=100, thick] {102885*(1.016)^x};
+\addplot[dashed] coordinates {(0,120000) (12,120000)};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+\textbf{9.} A population is 56000 in the year 2025 and grows by $2.4\%$ per year.
+\begin{enumerate}[label=(\alph*)]
+    \item Write a model for the population after $n$ years. \marks{2}
+    \gridspace{2}
+    \item Find the first year in which the population exceeds 70000. \marks{4}
+    \gridspace{4}
+\end{enumerate}
+
+\textbf{Section E: Probability from Venn/Selection Without Replacement}\\
+
+\textbf{10.} In a group of 22 students:
+\begin{itemize}[leftmargin=1.2cm]
+    \item 7 study only Economics $(E)$,
+    \item 5 study both Economics and History,
+    \item 4 study only History $(H)$,
+    \item 6 study neither.
+\end{itemize}
+\begin{enumerate}[label=(\alph*)]
+    \item Find $n(E\cap H)$. \marks{1}
+    \gridspace{1.8}
+    \item Three students are selected at random, without replacement.\\
+    Find the probability that all three study History. \marks{4}
+    \gridspace{4}
+    \item Another student simplifies their answer to $\dfrac{3}{110}$.\\
+    Show clearly why this is incorrect and give the correct value. \marks{2}
+    \gridspace{3}
+\end{enumerate}
+
+\textbf{11.} In another class, 30 students are grouped as follows:
+\begin{itemize}[leftmargin=1.2cm]
+    \item 10 in $A$ only,
+    \item 8 in both $A$ and $B$,
+    \item 6 in $B$ only,
+    \item 6 in neither.
+\end{itemize}
+Three students are selected at random, without replacement.
+\begin{enumerate}[label=(\alph*)]
+    \item Find the probability that all three are in set $B$. \marks{4}
+    \gridspace{4}
+    \item Find the probability that none of the three is in set $B$. \marks{4}
+    \gridspace{4}
+\end{enumerate}
+
+\vfill
+\hrule
+\textbf{End of Paper}
+
+\end{document}

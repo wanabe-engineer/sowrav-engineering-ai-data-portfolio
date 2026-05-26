@@ -1,0 +1,471 @@
+\documentclass[11pt,a4paper]{article}
+\input{topic2_style.tex}
+\begin{document}
+\ChapterTitle
+
+\Section{Chapter Map}
+\begin{tcolorbox}[colback=SoftBlue,colframe=BayBlue,arc=2mm,boxrule=0.8pt,title=\textbf{How this chapter is organised}]
+\begin{tabularx}{\textwidth}{p{2.2cm}Y}
+\toprule
+\textbf{Unit} & \textbf{What you will learn}\\
+\midrule
+2.1 & Bangladesh's tropical monsoon climate: pressure, wind reversal, high temperature, rainfall seasonality, climate graphs and monthly averages.\\
+2.2 & Climate change: global warming evidence, greenhouse-gas causes, sea-level rise, weather hazards, mitigation and adaptation.\\
+2.3 & Weather hazards: cyclone formation and flooding, Cyclone Remal 2024 case study, north-west drought and Barind Tract case study.\\
+\bottomrule
+\end{tabularx}
+\end{tcolorbox}
+
+\begin{keybox}{How to use the chapter}
+\begin{itemize}
+  \item Read each explanation first, then cover the page and redraw the diagram from memory.
+  \item For every graph, practise quoting exact months, values and trends.
+  \item For case studies, learn the year, location, causes, impacts and responses as a linked story.
+  \item At the end, use the review table to check whether your answers move from description to explanation and evaluation.
+\end{itemize}
+\end{keybox}
+
+\newpage
+
+\begin{syllabusbox}
+\textbf{Topic 2 Weather and climate} introduces the main features of the weather and climate of Bangladesh and the challenges they produce.
+
+\textbf{2.1 The tropical monsoon climate}
+\begin{itemize}
+  \item pressure and the south-west and north-east monsoons
+  \item reasons for high annual temperature in a tropical climate
+  \item monthly temperature and rainfall variation in Bangladesh
+  \item skills: interpreting temperature, rainfall and pressure maps; constructing and interpreting a climate graph; calculating monthly averages from daily data
+\end{itemize}
+
+\textbf{2.2 Climate change}
+\begin{itemize}
+  \item global temperature increase and reasons for it
+  \item effects of global warming on Bangladesh: sea-level rise and increased weather hazards
+  \item mitigation and adaptation in Bangladesh
+  \item skills: reading change-over-time graphs and interpreting maps of predicted impacts
+\end{itemize}
+
+\textbf{2.3 The challenges produced by weather}
+\begin{itemize}
+  \item causes, impacts and responses for cyclones and drought
+  \item required case studies: a cyclone in Bangladesh and drought in north-west Bangladesh
+\end{itemize}
+\end{syllabusbox}
+
+\Section{2.1 The Tropical Monsoon Climate}
+
+\Subsection{Weather and climate are not the same}
+\Term{Weather} is the short-term state of the atmosphere: today's temperature, wind, rainfall, humidity and cloud cover. \Term{Climate} is the average pattern of weather over a long period, usually about 30 years. Bangladesh has a \Term{tropical monsoon climate}: it is generally hot all year and has a strong wet season caused by seasonal wind reversal.
+
+For Paper 2, you should be able to move between three levels of explanation:
+\begin{itemize}
+  \item \textbf{description}: Bangladesh is hot, humid and very wet in summer
+  \item \textbf{process}: pressure differences reverse the wind direction
+  \item \textbf{evidence}: a climate graph shows rainfall rising sharply from May to September
+\end{itemize}
+
+\begin{keybox}{Core vocabulary for this unit}
+\begin{tabularx}{\textwidth}{p{3.4cm}Y}
+\toprule
+\textbf{Term} & \textbf{Meaning}\\
+\midrule
+Monsoon & A seasonal wind system that reverses direction between summer and winter.\\
+Pressure & The weight of air pressing on the Earth's surface. Air generally moves from high pressure to low pressure.\\
+South-west monsoon & Moist summer winds from the Bay of Bengal and Indian Ocean toward Bangladesh.\\
+North-east monsoon & Drier winter winds from the Asian landmass toward the sea.\\
+Convection & Rising of warm air; as air rises, it cools and may form cloud and rain.\\
+Relief rainfall & Rainfall produced when moist air is forced to rise over hills.\\
+\bottomrule
+\end{tabularx}
+\end{keybox}
+
+\Subsection{Why Bangladesh has high annual temperature}
+Bangladesh lies close to the Tropic of Cancer, roughly between 20$^\circ$N and 27$^\circ$N. This low latitude gives it a high sun angle for much of the year. When the sun is high in the sky, solar energy is concentrated over a smaller surface area, so heating is stronger than in higher latitudes. Day length also changes less than it does in temperate regions, so Bangladesh does not have a severe cold winter.
+
+High temperature is strengthened by three local conditions:
+\begin{itemize}
+  \item \textbf{low relief over much of the country}: most land is near sea level, so it is not cooled by altitude
+  \item \textbf{moist air}: humidity makes hot weather feel more oppressive because sweat evaporates less easily
+  \item \textbf{pre-monsoon heating}: March to May can be very hot before the full summer rains arrive
+\end{itemize}
+
+\Subsection{Pressure and monsoon wind reversal}
+The monsoon is caused by seasonal pressure changes between land and sea. Land heats and cools faster than water.
+
+\MonsoonPressureDiagram
+
+\textbf{Summer pattern:} From about June to September, strong heating over South Asia creates low pressure over land. The Bay of Bengal and Indian Ocean are relatively cooler and higher pressure. Moist air moves from the ocean toward the land as the south-west monsoon. When this air reaches Bangladesh, it rises through convection and over uplands, producing heavy rainfall.
+
+\textbf{Winter pattern:} From about November to February, the Asian landmass cools and high pressure develops over land. Winds blow from the north-east toward the sea. These winds have travelled over land and are much drier, so winter rainfall is low.
+
+\begin{skillbox}
+\textbf{Pressure map skill:} If a question gives a map with H and L pressure centres, draw arrows from high pressure to low pressure. Then ask: is the wind crossing the Bay of Bengal before reaching Bangladesh? If yes, expect moisture and rainfall. If the wind is coming from the dry continental interior, expect lower rainfall.
+\end{skillbox}
+
+\Subsection{Bangladesh climate graph from source data}
+The graph below uses World Bank Climate Change Knowledge Portal CRU TS4.07 data for Bangladesh, 1991--2020. Rainfall is measured in millimetres and temperature in degrees Celsius.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+  width=15cm,height=8cm,
+  symbolic x coords={Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec},
+  xtick=data,
+  ymin=0,ymax=520,
+  ylabel={Rainfall (mm)},
+  ybar,bar width=13pt,
+  axis y line*=left,
+  axis x line*=bottom,
+  grid=major,major grid style={LineGray!55},
+  legend style={at={(0.5,-0.16)},anchor=north,draw=none,fill=none}
+]
+\addplot[fill=BayBlue!70,draw=BayBlue] coordinates {(Jan,10.16)(Feb,20.08)(Mar,41.52)(Apr,117.12)(May,225.41)(Jun,367.90)(Jul,478.48)(Aug,388.87)(Sep,298.22)(Oct,190.34)(Nov,30.56)(Dec,5.44)};
+\addlegendentry{Rainfall}
+\end{axis}
+\begin{axis}[
+  width=15cm,height=8cm,
+  symbolic x coords={Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec},
+  xtick=data,
+  ymin=16,ymax=31,
+  axis y line*=right,
+  axis x line=none,
+  ylabel={Temperature ($^\circ$C)}
+]
+\addplot[StormRed,very thick,mark=*] coordinates {(Jan,18.76)(Feb,21.41)(Mar,25.64)(Apr,28.08)(May,28.63)(Jun,28.73)(Jul,28.53)(Aug,28.66)(Sep,28.57)(Oct,27.41)(Nov,23.92)(Dec,20.01)};
+\addlegendentry{Temperature}
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+\SourceNote{World Bank Climate Change Knowledge Portal API, CRU TS4.07 country climatology for Bangladesh, 1991--2020.}
+
+\Subsection{Interpreting the graph}
+\begin{itemize}
+  \item Rainfall is very seasonal. January and December are extremely dry, while July is the wettest month.
+  \item The wet season begins to build in April and May, reaches a peak from June to August, then declines after September.
+  \item Temperature is high all year. It rises from winter into the pre-monsoon and monsoon months.
+  \item The annual temperature range is modest compared with temperate countries because Bangladesh is tropical.
+\end{itemize}
+
+\begin{skillbox}
+\textbf{Calculating monthly averages:} Add all daily observations for the month and divide by the number of days. For example, if three daily rainfall totals are 12 mm, 0 mm and 18 mm, the average is $(12+0+18)\div3=10$ mm. For a real month, divide by 28, 29, 30 or 31 depending on the month.
+\end{skillbox}
+
+\Subsection{Rainfall variation across Bangladesh}
+Rainfall is not equal everywhere. The north-east and south-east generally receive heavy rainfall because moist monsoon air is lifted near hill areas and because they are exposed to air from the Bay of Bengal. The west and north-west are relatively drier, which helps explain why drought is a serious issue in the Barind Tract and Rajshahi/Rangpur region.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+width=13.5cm,height=6.5cm,
+ybar,bar width=28pt,
+symbolic x coords={North-west,Central flood plain,North-east,South-east coast},
+xtick=data,
+ylabel={Relative monsoon rainfall},
+ymin=0,ymax=5,
+nodes near coords,
+grid=major,major grid style={LineGray!50}
+]
+\addplot[fill=MonsoonGreen!70,draw=MonsoonGreen] coordinates {(North-west,2)(Central flood plain,3)(North-east,5)(South-east coast,4)};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+This is a simplified revision graph, not a station-data graph. It is useful because it shows the pattern you need in an exam: wetter east and north-east; drier north-west.
+
+\begin{examcheck}
+\textbf{Climate graph interpretation practice}
+\begin{enumerate}
+  \item State the wettest month shown in the Bangladesh climate graph and give its rainfall value.
+  \item Calculate the approximate annual temperature range using the warmest and coolest monthly mean temperatures.
+  \item Explain why rainfall rises sharply from May to July.
+  \item Suggest why north-west Bangladesh is more drought-prone than the north-east.
+\end{enumerate}
+\end{examcheck}
+
+\begin{skillbox}
+\textbf{Climate graph writing frame:} Start with an overall sentence, then use evidence. Example: ``Bangladesh has a strongly seasonal monsoon rainfall pattern. Rainfall is very low in December and January, but rises to a July peak of about 478 mm. Temperature remains high all year, from about 19$^\circ$C in January to nearly 29$^\circ$C in June.''
+\end{skillbox}
+
+\newpage
+\Section{2.2 Climate Change}
+
+\Subsection{What is global warming?}
+\Term{Global warming} is the long-term rise in average global temperature. It is part of wider \Term{climate change}, which also includes changing rainfall patterns, sea-level rise, more intense heatwaves, changes in storm behaviour, and changes in ecosystems.
+
+The main reason for recent global warming is the enhanced greenhouse effect. Human activities release greenhouse gases, especially carbon dioxide from fossil fuels, methane from agriculture and energy systems, and nitrous oxide from fertilisers. These gases trap more outgoing heat in the atmosphere.
+
+\begin{keybox}{Natural greenhouse effect vs enhanced greenhouse effect}
+\begin{tabularx}{\textwidth}{p{4cm}Y}
+\toprule
+\textbf{Natural greenhouse effect} & Keeps Earth warm enough for life. Without it, average global temperature would be much lower.\\
+\textbf{Enhanced greenhouse effect} & Extra greenhouse gases from human activity trap additional heat, causing recent global warming.\\
+\bottomrule
+\end{tabularx}
+\end{keybox}
+
+\Subsection{Evidence from a long-term temperature graph}
+The graph below uses NASA GISS GISTEMP annual global land-ocean temperature anomaly data. A temperature anomaly is the difference from a reference average, not an absolute temperature.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+width=15cm,height=7.4cm,
+xmin=1880,xmax=2025,
+ymin=-0.45,ymax=1.35,
+xlabel={Year},
+ylabel={Global temperature anomaly ($^\circ$C, NASA 1951--1980 baseline)},
+grid=both,major grid style={LineGray!55},
+minor tick num=1
+]
+\addplot[BayBlue,very thick,mark=*] coordinates {
+(1880,-0.17)(1900,-0.09)(1920,-0.28)(1940,0.12)(1960,-0.03)(1980,0.26)(2000,0.39)(2010,0.72)(2020,1.01)(2023,1.17)(2024,1.28)(2025,1.19)
+};
+\draw[StormRed,dashed,thick] (axis cs:1880,0)--(axis cs:2025,0);
+\node[align=left,font=\small] at (axis cs:1997,1.13) {Rapid warming\\since late 20th century};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+\SourceNote{NASA GISS GISTEMP v4 global land-ocean annual temperature anomaly data. NASA states 2024 was the warmest year in its record and about 1.47$^\circ$C above the 1850--1900 pre-industrial average.}
+
+\Subsection{Why Bangladesh is highly vulnerable}
+Bangladesh contributes only a small share of historical global greenhouse-gas emissions, but it is very exposed to climate impacts. Vulnerability is high because of:
+\begin{itemize}
+  \item low-lying deltaic land and long coastline
+  \item high population density
+  \item dependence on climate-sensitive sectors such as agriculture, fisheries and water resources
+  \item poverty and inequality, which reduce people's ability to recover from disasters
+  \item repeated exposure to cyclones, floods, droughts, storm surges and salinity intrusion
+\end{itemize}
+
+\BangladeshRiskMap
+
+\Subsection{Sea-level rise in Bangladesh}
+Sea-level rise threatens Bangladesh through permanent inundation, stronger storm-surge flooding, river-mouth flooding, salinity intrusion and coastal erosion. A small rise in average sea level can greatly increase flood risk because storm surges start from a higher base level.
+
+The coastal zone is already protected by polders, embankments, cyclone shelters and mangroves in some places, but protection is uneven. Sea-level rise also interacts with river sediment supply, subsidence and land-use change, so impacts vary by location.
+
+\begin{center}
+\begin{tikzpicture}[scale=0.9]
+  \fill[SoftBlue] (-6,-2.2) rectangle (6,2.4);
+  \fill[MonsoonGreen!35] (-6,-1.2) .. controls (-3,-0.8) and (0,-1.0) .. (6,-0.7) -- (6,-2.2) -- (-6,-2.2) -- cycle;
+  \draw[thick] (-6,-1.2) .. controls (-3,-0.8) and (0,-1.0) .. (6,-0.7);
+  \fill[BayBlue!40] (-6,-1.55) rectangle (6,-2.2);
+  \draw[BayBlue,very thick] (-6,-1.55)--(6,-1.55);
+  \draw[StormRed,very thick,dashed] (-6,-1.05)--(6,-1.05);
+  \node[font=\small] at (-4.2,-1.75) {Current sea level};
+  \node[font=\small,StormRed] at (3.8,-0.82) {Higher sea level};
+  \draw[-{Latex[length=2mm]},StormRed] (3.2,-1.02)--(3.2,-1.52);
+  \node[font=\small,align=center] at (0,1.45) {Storm surge reaches farther inland\\when sea level is higher};
+  \draw[-{Latex[length=2mm]},BayBlue,thick] (4.9,-1.45)--(2.4,-0.95);
+\end{tikzpicture}
+\end{center}
+
+\Subsection{Increased weather hazards}
+Global warming can increase the damage from weather hazards even when the basic hazard type is familiar. Warmer air can hold more moisture, increasing the risk of intense rainfall. Warmer sea-surface temperatures can provide energy for tropical cyclones. Higher sea level increases storm-surge depth. Higher temperature increases evaporation and soil moisture loss, worsening drought risk.
+
+\begin{longtable}{p{3.6cm}p{5.7cm}p{5.3cm}}
+\toprule
+\textbf{Hazard} & \textbf{Climate-change link} & \textbf{Bangladesh impact}\\
+\midrule
+Sea-level rise & Warming oceans expand and land ice melts. & Salinity intrusion, coastal flooding, erosion, pressure on polders and migration.\\
+Cyclones and storm surge & Warmer sea surfaces can increase rainfall intensity and storm-surge damage when combined with higher sea level. & Greater coastal flooding, damaged homes, crops, roads, embankments and fisheries.\\
+Extreme rainfall & Warmer air holds more water vapour. & Urban waterlogging, flash flooding, landslides in hill areas, crop damage.\\
+Drought and heat & Higher temperatures increase evaporation and crop water demand. & North-west crop stress, groundwater depletion, drinking-water shortage and health impacts.\\
+\bottomrule
+\end{longtable}
+
+\Subsection{Mitigation and adaptation}
+\Term{Mitigation} means reducing the causes of climate change, mainly by cutting greenhouse-gas emissions or increasing carbon storage. \Term{Adaptation} means adjusting to climate impacts that are already happening or expected.
+
+\begin{tabularx}{\textwidth}{p{2.9cm}Y Y}
+\toprule
+\textbf{Strategy} & \textbf{Examples in Bangladesh} & \textbf{How to evaluate}\\
+\midrule
+Mitigation & Solar home systems, renewable energy, efficient brick kilns, improved public transport, tree planting, lower-emission agriculture. & Bangladesh's emissions are low per person, so mitigation is important but cannot protect the country unless global emissions also fall.\\
+Adaptation & Cyclone shelters, early-warning systems, raised roads/homes, climate-resilient crops, embankments, mangrove restoration, rainwater harvesting, floating agriculture. & Adaptation directly saves lives and livelihoods, but it needs money, maintenance and fair access.\\
+\bottomrule
+\end{tabularx}
+
+\begin{skillbox}
+\textbf{Reading climate-change maps:} Look at the map title, time period, scenario and legend. Then identify the highest-risk zones and explain why those places are vulnerable. For Bangladesh, always connect predicted impact maps to low elevation, delta/coastal location, population density and livelihood dependence.
+\end{skillbox}
+
+\newpage
+\Section{2.3 The Challenges Produced by Weather}
+
+\Subsection{Cyclones: how they form}
+A tropical cyclone is a rotating low-pressure storm that forms over warm tropical seas. The Bay of Bengal is a major cyclone basin because sea-surface temperatures can be high and there is a large supply of moist air.
+
+\begin{center}
+\begin{tikzpicture}[scale=0.86]
+  \fill[BayBlue!18] (-6,-2.5) rectangle (6,2.5);
+  \fill[BayBlue!50] (-6,-2.5) rectangle (6,-1.3);
+  \draw[decorate,decoration={coil,aspect=0.5,segment length=5mm,amplitude=5mm},StormRed,very thick] (0,0) circle (1.25);
+  \node[font=\bfseries] at (0,0) {LOW};
+  \draw[-{Latex[length=3mm]},StormRed,very thick] (-3.9,-1.1)--(-1.1,-0.25);
+  \draw[-{Latex[length=3mm]},StormRed,very thick] (3.9,-1.1)--(1.1,-0.25);
+  \draw[-{Latex[length=2mm]},BayBlue,thick] (-1.8,-1.35)--(-1.8,0.75);
+  \draw[-{Latex[length=2mm]},BayBlue,thick] (1.8,-1.35)--(1.8,0.75);
+  \node[font=\small,align=center] at (-3.8,1.45) {Warm sea evaporates\\large amounts of water};
+  \node[font=\small,align=center] at (3.8,1.45) {Rising moist air\\forms cloud and rain};
+  \node[font=\small,align=center] at (0,-2.0) {Latent heat release powers the storm};
+\end{tikzpicture}
+\end{center}
+
+\Subsection{Why cyclones cause flooding in Bangladesh}
+Cyclone flooding has several causes working together:
+\begin{itemize}
+  \item \textbf{storm surge}: strong winds and low pressure push seawater onto the coast
+  \item \textbf{heavy rainfall}: intense rain causes surface runoff and river flooding
+  \item \textbf{low-lying coastal plain}: water spreads far inland
+  \item \textbf{wide river mouths}: the Meghna estuary and delta channels allow surge water to move inland
+  \item \textbf{embankment failure}: damaged polders and embankments allow saline water to enter farms and settlements
+\end{itemize}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.86\textwidth]{assets/cyclone_remal_rammb_visible.jpg}
+\caption{\textbf{Real satellite image:} Cyclone Remal over Bangladesh and the Bay of Bengal region. The visible image shows the broad cloud shield over the delta and coastal zone.}
+\end{figure}
+\SourceNote{RAMMB/CIRA/Colorado State University TC Realtime, using satellite imagery for IO012024 Remal, 27 May 2024.}
+
+\begin{casebox}{Case Study: Cyclone Remal, Bangladesh, 2024}
+\begin{longtable}{p{3.35cm}p{11.2cm}}
+\toprule
+\textbf{Required syllabus point} & \textbf{Detailed case evidence}\\
+\midrule
+Year of cyclone & 2024. Cyclone Remal formed in late May and struck Bangladesh and adjoining West Bengal around 26--27 May.\\
+Why it caused flooding & Remal brought storm surge, heavy rainfall and strong winds to the low-lying coast. UNICEF reported tidal surge and heavy rainfall causing 5--8 feet of flooding in coastal areas. The Sundarbans/coastal-delta setting and embankment damage increased flood exposure.\\
+Impact on people & UNICEF reported that Remal impacted 4.6 million people across 19 districts, caused 16 deaths and left 1.3 million people needing humanitarian assistance. Affected groups included children, women, pregnant women and people with disabilities.\\
+Impact on homes & UN/HCTT reporting for the 2024 cyclone and monsoon floods recorded very large shelter damage; reports describe tens of thousands of houses fully destroyed and many more partially damaged during Remal.\\
+Impact on economy & Agriculture, fisheries, roads, embankments, electricity and local markets were disrupted. Saline flooding damaged fields and ponds; transport and power interruptions affected movement, industry and services.\\
+Short-term responses & Evacuations, cyclone shelters, emergency food, safe water, hygiene kits, medical care, child protection and cash-transfer support. UNICEF reported reaching up to 190,000 people through multi-sector Cyclone Remal response interventions by July 2024.\\
+Long-term responses & Stronger early warning, better shelters, embankment repair, resilient housing, mangrove protection, livelihood recovery, improved WASH systems and disaster-risk planning.\\
+\bottomrule
+\end{longtable}
+\SourceNote{UNICEF Bangladesh Cyclone Remal and Floods Situation Report, 11 July 2024; UN/HCTT Bangladesh Humanitarian Response Plan 2024.}
+\end{casebox}
+
+\Subsection{How cyclone risk has been reduced}
+Bangladesh is often used as an example of improved disaster preparedness. Death tolls from major cyclones have fallen over time because warning systems, shelters and evacuation planning have improved. This does not mean cyclones are no longer dangerous. It means vulnerability has been reduced, especially where people can receive warnings and reach safe shelters.
+
+\begin{tabularx}{\textwidth}{p{3.6cm}Y}
+\toprule
+\textbf{Response} & \textbf{How it reduces damage}\\
+\midrule
+Early warning systems & Give people time to move livestock, documents, food and family members to safer places.\\
+Cyclone shelters & Provide strong raised buildings above flood level.\\
+Coastal embankments/polders & Reduce normal tidal flooding and some storm-surge impact, though they can fail if overtopped or poorly maintained.\\
+Mangrove restoration & Mangroves can reduce wave energy and protect parts of the coast.\\
+Community volunteers & Help spread warnings, assist evacuation and support vulnerable people.\\
+Resilient livelihoods & Savings groups, insurance, alternative income and crop choices reduce long-term poverty after disasters.\\
+\bottomrule
+\end{tabularx}
+
+\Subsection{Drought: what it is and why north-west Bangladesh is at risk}
+Drought is a long period when water supply is below what people, crops and ecosystems need. In Bangladesh, drought is often \Term{agricultural drought}: soil moisture is too low for healthy crop growth. It may happen even without a desert climate, especially where rainfall is late, irregular or below average.
+
+North-west Bangladesh is at risk because it is relatively drier than the east, has high temperatures, relies heavily on agriculture, and includes the Barind Tract where groundwater can be difficult to access. The High Barind region is known for low and erratic rainfall, groundwater depletion and soil-fertility problems.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.74\textwidth]{assets/fao_high_barind_field_visit.jpg}
+\caption{\textbf{Real field image:} FAO/CIAT field visit context in the High Barind Tract of north-west Bangladesh, an area associated with water scarcity, erratic rainfall and climate-smart agriculture planning.}
+\end{figure}
+\SourceNote{FAO in Bangladesh, field mission article on northern Bangladesh and the High Barind Tract, 26 October 2017.}
+
+\begin{casebox}{Case Study: Drought in North-west Bangladesh}
+\begin{longtable}{p{3.35cm}p{11.2cm}}
+\toprule
+\textbf{Required syllabus point} & \textbf{Detailed case evidence}\\
+\midrule
+What is drought? & A period of below-normal water availability. In north-west Bangladesh it is often agricultural drought: crops lack enough soil moisture because rainfall is low, late or uneven and evapotranspiration is high.\\
+How often does it occur? & Drought is recurrent in the Barind/north-west region. Bangladesh climate portals describe north-west Bangladesh as the driest region and state that drought has become a recurrent natural phenomenon in the Barind Tract.\\
+Why is the north-west at risk? & The region receives less rainfall than many other parts of Bangladesh. The High Barind Tract has low and erratic rainfall, declining groundwater levels and limited irrigation in some areas. Hot days and shorter winters increase water demand.\\
+Effect on people's lives & Drinking-water stress, falling groundwater, higher food prices, reduced farm work, migration pressure, health problems linked to heat and poor water, and stress on livestock and fish ponds.\\
+Effect on crop production & Soil moisture falls, irrigation costs rise, transplanted aman rice may be delayed or damaged, boro rice becomes expensive where groundwater is scarce, and yields fall. A Bangladesh agricultural study reports that the 2006 severe drought reduced Aman crop production by about 25--30\% in the north-west region.\\
+Actions to reduce impact & Drought-tolerant crop varieties, crop diversification, switching from boro rice to wheat or pulses in suitable areas, direct-seeded rice, rainwater harvesting, pond excavation, efficient irrigation, groundwater regulation, weather forecasts and climate-smart agriculture training.\\
+\bottomrule
+\end{longtable}
+\SourceNote{Bangladesh Climate Change Information and Knowledge Management portal; FAO Bangladesh High Barind field mission; SAARC Journal of Agriculture article on drought adaptation in Barind Tract.}
+\end{casebox}
+
+\Subsection{Drought responses: evaluation}
+Drought responses must be judged by cost, reliability, equity and environmental effect. Deep tube wells may protect crops in the short term but can worsen groundwater depletion if extraction is too high. Drought-tolerant varieties and crop diversification may be more sustainable, but farmers need seed access, training, markets and credit. Rainwater harvesting is useful but depends on storage capacity and land ownership.
+
+\begin{center}
+\begin{tikzpicture}
+\begin{axis}[
+width=14cm,height=6.5cm,
+ybar,bar width=18pt,
+symbolic x coords={Deep irrigation,Drought-tolerant seed,Crop diversification,Rainwater storage,Forecasts/training},
+xtick=data,
+xticklabel style={rotate=25,anchor=east},
+ylabel={Relative long-term sustainability},
+ymin=0,ymax=5,
+nodes near coords,
+grid=major,major grid style={LineGray!50}
+]
+\addplot[fill=HeatOrange!70,draw=HeatOrange] coordinates {(Deep irrigation,2)(Drought-tolerant seed,4)(Crop diversification,5)(Rainwater storage,4)(Forecasts/training,4)};
+\end{axis}
+\end{tikzpicture}
+\end{center}
+
+\begin{examcheck}
+\textbf{Structured-question practice}
+\begin{enumerate}
+  \item Explain how pressure differences cause the south-west monsoon in Bangladesh.
+  \item Using the climate graph, identify the wettest month and describe the seasonal rainfall pattern.
+  \item Explain two reasons why Bangladesh is vulnerable to sea-level rise.
+  \item For Cyclone Remal, explain why flooding occurred and describe two impacts on people.
+  \item Evaluate two methods for reducing drought impacts in north-west Bangladesh.
+\end{enumerate}
+\end{examcheck}
+
+\begin{keybox}{Model answer ingredients}
+\textbf{For an ``explain'' question}, use a chain of cause and effect. Do not only name the factor. Example: ``In summer the land heats faster than the sea, creating lower pressure over South Asia. Air moves from the higher-pressure ocean toward the lower-pressure land. Because this air crosses the Bay of Bengal it is moist, so when it rises over Bangladesh it cools, condenses and produces heavy monsoon rain.''
+
+\textbf{For an ``evaluate'' question}, compare strengths and limits. Example: ``Cyclone shelters are highly effective for saving lives because they move people above storm-surge level, but they do not prevent damage to crops, fish ponds or roads. Embankments can protect farmland, but if they are poorly maintained or overtopped they may fail suddenly. Therefore the strongest approach combines warnings, shelters, embankment maintenance and livelihood recovery.''
+\end{keybox}
+
+\begin{skillbox}
+\textbf{Common mistake to avoid:} Do not write that climate change ``causes all cyclones'' or ``causes all droughts''. Cyclones and droughts occurred before recent global warming. A stronger answer says climate change can increase risk or impact by raising sea level, increasing heat stress, changing rainfall reliability, and increasing the amount of moisture available for extreme rainfall.
+\end{skillbox}
+
+\newpage
+\Section{Chapter Review: What a Strong Candidate Can Do}
+
+\begin{longtable}{p{4cm}p{10.9cm}}
+\toprule
+\textbf{Skill or knowledge} & \textbf{What it looks like in an answer}\\
+\midrule
+Explain monsoon climate & Link pressure, wind direction, moisture source, uplift and rainfall.\\
+Use latitude to explain temperature & Refer to Bangladesh's low latitude, high sun angle and limited winter cooling.\\
+Interpret a climate graph & Quote months, compare wet/dry season, describe temperature range and rainfall peak.\\
+Explain global warming & Mention greenhouse gases, fossil fuels, enhanced greenhouse effect and long-term trend.\\
+Apply climate change to Bangladesh & Use sea-level rise, storm surge, salinity, cyclones, drought, flood and livelihood vulnerability.\\
+Compare mitigation and adaptation & Mitigation reduces emissions; adaptation reduces harm from impacts.\\
+Write cyclone case study & Include year, flooding cause, people impacts, economic impacts, short-term responses and long-term responses.\\
+Write drought case study & Define drought, locate north-west/Barind, explain risk, people impacts, crop impacts and responses.\\
+\bottomrule
+\end{longtable}
+
+\Section{Source List}
+\begin{itemize}
+  \item Cambridge International, \textit{Cambridge O Level Bangladesh Studies 7094 syllabus for examination in 2025, 2026 and 2027}: \url{https://www.cambridgeinternational.org/Images/665158-2025-2027-syllabus.pdf}
+  \item World Bank Climate Change Knowledge Portal, Bangladesh CRU TS4.07 climatology API: \url{https://climateknowledgeportal.worldbank.org/download-data}
+  \item Bangladesh Meteorological Department climate pages: \url{https://www.bmd.gov.bd/web/bn/climate}
+  \item NASA GISS GISTEMP v4 global temperature data: \url{https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv}
+  \item NASA Climate Vital Signs global temperature summary: \url{https://climate.nasa.gov/vital-signs/global-temperature/}
+  \item UNICEF Bangladesh, \textit{Cyclone Remal and Floods in Bangladesh Situation Report}, 11 July 2024.
+  \item UN Bangladesh/HCTT, \textit{Bangladesh: Cyclone and Monsoon Floods Humanitarian Response Plan 2024}.
+  \item RAMMB/CIRA/Colorado State University TC Realtime satellite imagery for Remal: \url{https://rammb-data.cira.colostate.edu/tc_realtime/storm_satellite.asp?storm_identifier=io012024}
+  \item FAO Bangladesh, \textit{Joint mission of FAO and CIAT in Northern Bangladesh}: \url{https://www.fao.org/bangladesh/news/detail-events/en/c/1053754/}
+  \item Bangladesh Climate Change Information and Knowledge Management portal, drought and Barind region notes: \url{https://www.ccikm.gov.bd/nap/DBA/}
+  \item Islam et al., drought adaptation in Barind Tract, \textit{SAARC Journal of Agriculture}, 2019.
+\end{itemize}
+
+\end{document}

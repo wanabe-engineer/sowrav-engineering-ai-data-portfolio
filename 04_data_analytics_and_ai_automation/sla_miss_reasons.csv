@@ -1,0 +1,78 @@
+DOS,PROVIDER,provider_group,SCRIBE_ID,uploaded_by,reason_if_sla_missed
+2026-05-03,HOWERTON DANIEL,Howerton Daniel,14334456,AMIRUL,EHR got stuck and was not working. Ticket #534031
+2026-05-01,TAMARA DISMUKES,Tamara Dismukes,14255720,JEWEL,Ticket #533845. The provider has green dotted multiple notes. But notes came in our work queue with missed SLA due to a normandy glitch. Notes has been sucessfully uploaded
+2026-05-01,TAMARA DISMUKES,Tamara Dismukes,14261154,SAKIF,Ticket #533845. The provider has green dotted multiple notes. But notes came in our work queue with missed SLA due to a normandy glitch. Notes has been sucessfully uploaded
+2026-05-01,TAMARA DISMUKES,Tamara Dismukes,14261421,SAKIF,Ticket #533845. The provider has green dotted multiple notes. But notes came in our work queue with missed SLA due to a normandy glitch. Notes has been sucessfully uploaded
+2026-05-01,BORUNDA MICHAEL,Borunda Michael,14258580,,"Provider has edited but did not file a document in EHR. Hence, could not upload it. Ticket #533793"
+2026-04-30,GURSIMRAN SINGH,Gursimran Singh,14202496,SOWRAV,The provider did not save the draft hence the SLA was missed. Now it has been uploaded Ticket #533408
+2026-04-30,GURSIMRAN SINGH,Gursimran Singh,14202509,,"Ticket #533407 . The provider green dotted a note as the patient named as “Patient 1”. Hence, cannot find the patient and upload the note."
+2026-04-29,GHUMAN APRAM,Ghuman Apram,14147365,TASEEN,Normandy outage for 25-30 minutes. Uploaded the note after the issue resolved. Ticket: #532854
+2026-04-29,GHUMAN APRAM,Ghuman Apram,14147364,TASEEN,Normandy outage for 25-30 minutes. Uploaded the note after the issue resolved. Ticket: #532854
+2026-04-29,BORUNDA MICHAEL,Borunda Michael,14265238,SOWRAV,"The SLA of this note was missed due to an issue with the Normandy queue (Reference Ticket #525631). The provider wasn't on our shift today as well as the notes were from previous dates, had to manually check all the providers. Kindly requesting to update the ticket for the missed SLA."
+2026-04-29,BORUNDA MICHAEL,Borunda Michael,14265365,SOWRAV,"The SLA of this note was missed due to an issue with the Normandy queue (Reference Ticket #525631). The provider wasn't on our shift today as well as the notes were from previous dates, had to manually check all the providers. Kindly requesting to update the ticket for the missed SLA."
+2026-04-28,GHOBRIAL MARK,Ghobrial Mark,14097256,SOWRAV,#532604 SLA missed due to provider spammed multiple notes at a same time.
+2026-04-28,DILONE LEONCIO,Dilone Leoncio,14123411,,Provider did not save the draft. Ticket: 532741
+2026-04-28,DILONE LEONCIO,Dilone Leoncio,14123547,,Provider did not save the draft. Ticket: 532741
+2026-04-28,GHOBRIAL MARK,Ghobrial Mark,14089303,SOWRAV,#532604 SLA missed due to provider spammed multiple notes at a same time.
+2026-04-28,GHOBRIAL MARK,Ghobrial Mark,14098691,JEWEL,#532604 SLA missed due to provider spammed multiple notes at a same time.
+2026-04-28,GHOBRIAL MARK,Ghobrial Mark,14088501,SOWRAV,#532604 SLA missed due to provider spammed multiple notes at a same time.
+2026-04-28,GHOBRIAL MARK,Ghobrial Mark,14092768,JEWEL,#532604 SLA missed due to provider spammed multiple notes at a same time.
+2026-04-28,GHOBRIAL MARK,Ghobrial Mark,14095669,SOWRAV,#532604 SLA missed due to provider spammed multiple notes at a same time.
+2026-04-28,GHUMAN APRAM,Ghuman Apram,14086357,AMIRUL,Unscheduled provider and several green dots at once. Ticket #528821
+2026-04-28,GURSIMRAN SINGH,Gursimran Singh,14100183,,"The provider green-dotted the note with the name as ""PATIENT_1'' hence could not upload the note. Ticket #532615 The"
+2026-04-27,ZORAIDA LAREMONT,Zoraida Laremont,14086273,AMIRUL,EHR froze while uploading the note. Ticket #532495
+2026-04-23,BORUNDA MICHAEL,Borunda Michael,14184640,MASHAQUR,Provider greened 13 notes simultaneously. These 7 are from previous dates 23rd of April. Ticket: 533185
+2026-04-23,BORUNDA MICHAEL,Borunda Michael,14184923,TANVIR,Provider greened 13 notes simultaneously. These 7 are from previous dates 23rd of April. Ticket: 533185
+2026-04-23,BORUNDA MICHAEL,Borunda Michael,14184957,TANVIR,Provider greened 13 notes simultaneously. These 7 are from previous dates 23rd of April. Ticket: 533185
+2026-04-23,BORUNDA MICHAEL,Borunda Michael,14184675,MASHAQUR,Provider greened 13 notes simultaneously. These 7 are from previous dates 23rd of April. Ticket: 533185
+2026-04-23,BORUNDA MICHAEL,Borunda Michael,14184845,TANVIR,Provider greened 13 notes simultaneously. These 7 are from previous dates 23rd of April. Ticket: 533185
+2026-04-23,BORUNDA MICHAEL,Borunda Michael,14184750,MASHAQUR,Provider greened 13 notes simultaneously. These 7 are from previous dates 23rd of April. Ticket: 533185
+2026-04-23,BORUNDA MICHAEL,Borunda Michael,14184516,MASHAQUR,Provider greened 13 notes simultaneously. These 7 are from previous dates 23rd of April. Ticket: 533185
+2026-04-23,GHUMAN APRAM,Ghuman Apram,13898818,SOWRAV,"The SLA of this note was missed due to an issue with the Normandy queue . The provider wasn't on our shift today, so I had to manually check all the providers. - Ticket #528821"
+2026-04-23,GHUMAN APRAM,Ghuman Apram,13898818,SOWRAV,"The SLA of this note was missed due to an issue with the Normandy queue . The provider wasn't on our shift today, so I had to manually check all the providers. - Ticket #528821"
+2026-04-22,JOSE RUBERO,Jose Rubero,13844767,,Ticket: 531217 The provider green dotted a note. But we could not find the patient in the EHR
+2026-04-22,DALY MICHAEL,Daly Michael,13866065,SAKIF,Provider did not save the draft. Ticket: 531340
+2026-04-22,DALY MICHAEL,Daly Michael,13882535,SANJIDA,Provider did not save the draft. Ticket: 531340
+2026-04-22,DILONE LEONCIO,Dilone Leoncio,13893666,,Provider did not save the draft. Ticket: 531498
+2026-04-22,GHUMAN APRAM,Ghuman Apram,13897435,AMIRUL,"TRINITY issue: Provider was not on the schedule and I was occupied with a Dilone spam.
+Ticket: 531530"
+2026-04-22,GHUMAN APRAM,Ghuman Apram,13897435,AMIRUL,"TRINITY issue: Provider was not on the schedule and I was occupied with a Dilone spam.
+Ticket: 531530"
+2026-04-22,GURSIMRAN SINGH,Gursimran Singh,13844433,SOWRAV,"The SLA of this note has been missed due the provider not saving the draft, later the note was uploaded. Ticket - 531247"
+2026-04-22,JOSE RUBERO,Jose Rubero,13844308,,Ticket: 531217 The provider green dotted a note. But we could not find the patient in the EHR
+2026-04-22,JOSE RUBERO,Jose Rubero,13845119,,Ticket: 531217 The provider green dotted a note. But we could not find the patient in the EHR
+2026-04-22,JOSE RUBERO,Jose Rubero,13849248,,Ticket: 531217 The provider green dotted a note. But we could not find the patient in the EHR
+2026-04-22,JOSE RUBERO,Jose Rubero,13851922,,Ticket: 531217 The provider green dotted a note. But we could not find the patient in the EHR
+2026-04-22,JOSE RUBERO,Jose Rubero,13857452,,
+2026-04-22,JOSE RUBERO,Jose Rubero,13865945,,
+2026-04-22,ZORAIDA LAREMONT,Zoraida Laremont,13844111,SAKIF,Ticket: 531215. The provider has green dotted a note. But the note came in our work queue with missed SLA due to a normandy glitch.
+2026-04-21,LUGO KATIA,Lugo Katia,13805732,,Did not save the draft. Ticket: 533257
+2026-04-21,LEONCIO DILONE,Leoncio Dilone,13839561,,The provider did not save the draft. Ticket: 531210
+2026-04-20,GURSIMRAN SINGH,Gursimran Singh,13712697,AMIRUL,Green dotted 19 notes at once. Had two EHRs only as the third EHR was facing outage. Ticket: 530465
+2026-04-20,GHUMAN APRAM,Ghuman Apram,13724647,SOWRAV,Missed SLA due to an issue with my Normandy Trinity Queue and I am connecting to the providers manually and uploading notes today. Since the provider was not in the schedule today and is working in Free Standing hence the SLAs were missed. Ticket - #528821
+2026-04-20,GURSIMRAN SINGH,Gursimran Singh,13724641,SAKIF,Missed SLA due to an issue with my Normandy Trinity Queue and I am connecting to the providers manually and uploading notes today. Since the provider was not in the our shift today hence the SLAs were missed. Ticket - #525631
+2026-04-20,GURSIMRAN SINGH,Gursimran Singh,13724645,PIASH,Missed SLA due to an issue with my Normandy Trinity Queue and I am connecting to the providers manually and uploading notes today. Since the provider was not in the our shift today hence the SLAs were missed. Ticket - #525631
+2026-04-20,GURSIMRAN SINGH,Gursimran Singh,13719340,,Patient was not found (Patient-1 visit) Ticket: 530466
+2026-04-20,GURSIMRAN SINGH,Gursimran Singh,13722277,AMIRUL,Green dotted 19 notes at once. Had two EHRs only as the third EHR was facing outage. Ticket: 530465
+2026-04-20,GURSIMRAN SINGH,Gursimran Singh,13724059,AMIRUL,Green dotted 19 notes at once. Had two EHRs only as the third EHR was facing outage. Ticket: 530465
+2026-04-20,GURSIMRAN SINGH,Gursimran Singh,13715346,AMIRUL,Green dotted 19 notes at once. Had two EHRs only as the third EHR was facing outage. Ticket: 530465
+2026-04-19,GURSIMRAN SINGH,Gursimran Singh,13712709,TASEEN,Green dotted 19 notes at once. Had two EHRs only as the third EHR was facing outage. Ticket: 530465
+2026-04-19,GURSIMRAN SINGH,Gursimran Singh,13712726,TASEEN,Green dotted 19 notes at once. Had two EHRs only as the third EHR was facing outage. Ticket: 530465
+2026-04-19,GURSIMRAN SINGH,Gursimran Singh,13712682,TASEEN,Green dotted 19 notes at once. Had two EHRs only as the third EHR was facing outage. Ticket: 530465
+2026-04-19,GURSIMRAN SINGH,Gursimran Singh,13724185,TASEEN,Green dotted 19 notes at once. Had two EHRs only as the third EHR was facing outage. Ticket: 530465
+2026-04-17,HOWERTON DANIEL,Howerton Daniel,13648222,SOWRAV,Was manually connected and refreshed every 5 mins. The green dot did not showup until we cleaned the cache and restarted Normandy. By then the SLA was missed. Ticket - 525631
+2026-04-17,HOWERTON DANIEL,Howerton Daniel,13648080,PIASH,Was manually connected and refreshed every 5 mins. The green dot did not showup until we cleaned the cache and restarted Normandy. By then the SLA was missed. Ticket - 525631
+2026-04-17,HOWERTON DANIEL,Howerton Daniel,13648133,SOWRAV,Was manually connected and refreshed every 5 mins. The green dot did not showup until we cleaned the cache and restarted Normandy. By then the SLA was missed. Ticket - 525631
+2026-04-17,HOWERTON DANIEL,Howerton Daniel,13648040,SOWRAV,Was manually connected and refreshed every 5 mins. The green dot did not showup until we cleaned the cache and restarted Normandy. By then the SLA was missed. Ticket - 525631
+2026-04-17,HOWERTON DANIEL,Howerton Daniel,13648268,SAKIF,Was manually connected and refreshed every 5 mins. The green dot did not showup until we cleaned the cache and restarted Normandy. By then the SLA was missed. Ticket - 525631
+2026-04-17,BORUNDA MICHAEL,Borunda Michael,13646238,PIASH,"Ticket: 525631. Provider wasn't on the schedule, but a manual check confirmed the note was green-dotted for 35 mins. By the time I attempted to upload, the provider had already uploaded and signed it."
+2026-04-16,LEONCIO DILONE,Leoncio Dilone,13593367,,Provider has green dotted a note. Although He has edited the note but didn't save the draft. Due to this I couldn't access the draft for uploading the note. Ticket: #529778
+2026-04-16,GHUMAN APRAM,Ghuman Apram,13626646,SANJIDA,Due to the queue issue. When we checked on Ghuman the Slas were already missed.
+2026-04-16,GHUMAN APRAM,Ghuman Apram,13626531,MASHAQUR,Due to the queue issue. When we checked on Ghuman the Slas were already missed.
+2026-04-16,GHUMAN APRAM,Ghuman Apram,13626593,TANVIR,Due to the queue issue. When we checked on Ghuman the Slas were already missed.
+2026-04-16,GHUMAN APRAM,Ghuman Apram,13625932,TANVIR,Due to the queue issue. When we checked on Ghuman the Slas were already missed.
+2026-04-16,GHUMAN APRAM,Ghuman Apram,13626237,MASHAQUR,Due to the queue issue. When we checked on Ghuman the Slas were already missed.
+2026-04-16,JULIAN ALBERTY,Julian Alberty,13644051,FURKAN,Uploaded within SLA but couldn't mark as uploaded due to Normandy outage. Ticket#529638
+2026-04-16,JULIAN ALBERTY,Julian Alberty,13644148,MASHAQUR,Uploaded within SLA but couldn't mark as uploaded due to Normandy outage. Ticket#529638
+2026-04-16,JULIAN ALBERTY,Julian Alberty,13644223,AMIRUL,Uploaded within SLA but couldn't mark as uploaded due to Normandy outage. Ticket#529638
+2026-04-16,LEONCIO DILONE,Leoncio Dilone,13593599,JEWEL,Provider has green dotted a note. Although He has edited the note but didn't save the draft. Due to this I couldn't access the draft for uploading the note. Ticket: #529778
