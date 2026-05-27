@@ -17,10 +17,16 @@ Account used through browser:
 
 ## Archive Scale
 
-- Total local archive files: 1,432
-- Total local archive size: about 1.87 GB
+- Total local archive files after cleanup: 478
+- Total local archive size after cleanup: about 589 MB
 - Course folders found/download-attempted: 53
-- Course folders with downloaded files: 38
+- Course folders with downloaded files: 37
+- Recovered loose files moved into course folders: 39
+- Exact duplicate files deleted by SHA-256 match: 958
+
+## PDF Summary
+
+- `ULAB_Classroom_Drive_Archive_Summary.pdf`
 
 ## Key Local Manifest Files
 
@@ -29,6 +35,8 @@ Account used through browser:
 - `00_manifests/top_level_classroom_folder_listing.json`
 - `00_manifests/all_classroom_drive_folders.csv`
 - `00_manifests/top_level_extra_folders_to_download.csv`
+- `00_manifests/duplicate_removal_log.csv`
+- `00_manifests/recovered_file_organization_log.csv`
 
 ## Portfolio Use
 
