@@ -27,6 +27,7 @@ Account used through browser:
 ## PDF Summary
 
 - `ULAB_Classroom_Drive_Archive_Summary.pdf`
+- `ULAB_Classroom_Drive_Portfolio_Project_Ideas.pdf`
 
 ## Key Local Manifest Files
 
