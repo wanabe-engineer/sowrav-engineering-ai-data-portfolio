@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio project map</title>
+  <desc id="desc">A radial map connecting Sowrav Chowdhury's flagship biomedical AI project to engineering systems, analytics, documentation, and evidence.</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfcfd"/>
+      <stop offset="1" stop-color="#eef7f4"/>
+    </linearGradient>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#14242a" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="680" rx="34" fill="url(#bg2)"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="76" fill="#172026" font-size="36" font-weight="700">Project Portfolio Map</text>
+    <text x="60" y="116" fill="#5f6b74" font-size="18">A coherent story for professors, employers, and technical reviewers.</text>
+  </g>
+  <g stroke="#d8e0e5" stroke-width="4">
+    <line x1="600" y1="340" x2="260" y2="190"/>
+    <line x1="600" y1="340" x2="940" y2="190"/>
+    <line x1="600" y1="340" x2="250" y2="500"/>
+    <line x1="600" y1="340" x2="950" y2="500"/>
+    <line x1="600" y1="340" x2="600" y2="570"/>
+  </g>
+  <g filter="url(#shadow2)" font-family="Arial, Helvetica, sans-serif">
+    <circle cx="600" cy="340" r="116" fill="#087f75"/>
+    <text x="600" y="318" text-anchor="middle" fill="#fff" font-size="25" font-weight="700">Respiratory AI</text>
+    <text x="600" y="350" text-anchor="middle" fill="#e6fffb" font-size="17">Flagship research</text>
+    <text x="600" y="378" text-anchor="middle" fill="#e6fffb" font-size="17">signal + ML + health</text>
+
+    <g transform="translate(110 125)">
+      <rect width="300" height="120" rx="18" fill="#fff" stroke="#d8e0e5"/>
+      <text x="24" y="42" fill="#172026" font-size="21" font-weight="700">VLSI + Digital Logic</text>
+      <text x="24" y="76" fill="#5f6b74" font-size="16">Transistor-level reasoning, truth tables, schematic evidence.</text>
+    </g>
+    <g transform="translate(790 125)">
+      <rect width="300" height="120" rx="18" fill="#fff" stroke="#d8e0e5"/>
+      <text x="24" y="42" fill="#172026" font-size="21" font-weight="700">CAD + Electrical Design</text>
+      <text x="24" y="76" fill="#5f6b74" font-size="16">Plans, distribution, safety assumptions, field-ready documentation.</text>
+    </g>
+    <g transform="translate(100 445)">
+      <rect width="320" height="120" rx="18" fill="#fff" stroke="#d8e0e5"/>
+      <text x="24" y="42" fill="#172026" font-size="21" font-weight="700">Power + Control Systems</text>
+      <text x="24" y="76" fill="#5f6b74" font-size="16">Simulation mindset, response metrics, quantitative engineering.</text>
+    </g>
+    <g transform="translate(785 445)">
+      <rect width="330" height="120" rx="18" fill="#fff" stroke="#d8e0e5"/>
+      <text x="24" y="42" fill="#172026" font-size="21" font-weight="700">Data Analytics Automation</text>
+      <text x="24" y="76" fill="#5f6b74" font-size="16">Archive cleanup, dashboards, KPIs, workflow intelligence.</text>
+    </g>
+    <g transform="translate(430 560)">
+      <rect width="340" height="86" rx="18" fill="#172026"/>
+      <text x="170" y="36" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">Academic Writing + Reports</text>
+      <text x="170" y="62" text-anchor="middle" fill="#dfecea" font-size="15">LaTeX, research framing, graduate readiness</text>
+    </g>
+  </g>
+</svg>

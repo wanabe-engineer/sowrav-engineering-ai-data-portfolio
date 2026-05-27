@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Archive to portfolio pipeline</title>
+  <desc id="desc">A horizontal pipeline from Drive and Classroom files through deduplication, course grouping, evidence selection, project build, and GitHub publishing.</desc>
+  <defs>
+    <marker id="arrow3" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto">
+      <path d="M0,0 L12,7 L0,14 Z" fill="#087f75"/>
+    </marker>
+    <filter id="shadow3" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#14242a" flood-opacity=".13"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="520" rx="34" fill="#fbfcfd"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="60" y="74" fill="#172026" font-size="35" font-weight="700">Evidence-to-Portfolio Production Pipeline</text>
+    <text x="60" y="114" fill="#5f6b74" font-size="18">How 1,400+ messy academic files became a focused project showcase.</text>
+  </g>
+  <g stroke="#087f75" stroke-width="4" marker-end="url(#arrow3)" fill="none">
+    <path d="M236 284 H306"/>
+    <path d="M436 284 H506"/>
+    <path d="M636 284 H706"/>
+    <path d="M836 284 H906"/>
+  </g>
+  <g filter="url(#shadow3)" font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(60 200)">
+      <rect width="176" height="168" rx="18" fill="#eef7f4" stroke="#d8e0e5"/>
+      <text x="88" y="48" text-anchor="middle" fill="#172026" font-size="20" font-weight="700">Collect</text>
+      <text x="88" y="84" text-anchor="middle" fill="#5f6b74" font-size="15">Drive</text>
+      <text x="88" y="110" text-anchor="middle" fill="#5f6b74" font-size="15">Classroom</text>
+      <text x="88" y="136" text-anchor="middle" fill="#5f6b74" font-size="15">Gmail evidence</text>
+    </g>
+    <g transform="translate(310 200)">
+      <rect width="176" height="168" rx="18" fill="#eff6ff" stroke="#d8e0e5"/>
+      <text x="88" y="48" text-anchor="middle" fill="#172026" font-size="20" font-weight="700">Clean</text>
+      <text x="88" y="88" text-anchor="middle" fill="#5f6b74" font-size="15">SHA-256</text>
+      <text x="88" y="116" text-anchor="middle" fill="#5f6b74" font-size="15">958 duplicate</text>
+      <text x="88" y="142" text-anchor="middle" fill="#5f6b74" font-size="15">files removed</text>
+    </g>
+    <g transform="translate(510 200)">
+      <rect width="176" height="168" rx="18" fill="#fff7ed" stroke="#d8e0e5"/>
+      <text x="88" y="48" text-anchor="middle" fill="#172026" font-size="20" font-weight="700">Group</text>
+      <text x="88" y="88" text-anchor="middle" fill="#5f6b74" font-size="15">Courses</text>
+      <text x="88" y="116" text-anchor="middle" fill="#5f6b74" font-size="15">Topics</text>
+      <text x="88" y="142" text-anchor="middle" fill="#5f6b74" font-size="15">Evidence type</text>
+    </g>
+    <g transform="translate(710 200)">
+      <rect width="176" height="168" rx="18" fill="#fff" stroke="#d8e0e5"/>
+      <text x="88" y="48" text-anchor="middle" fill="#172026" font-size="20" font-weight="700">Curate</text>
+      <text x="88" y="88" text-anchor="middle" fill="#5f6b74" font-size="15">Flagship</text>
+      <text x="88" y="116" text-anchor="middle" fill="#5f6b74" font-size="15">case studies</text>
+      <text x="88" y="142" text-anchor="middle" fill="#5f6b74" font-size="15">reports</text>
+    </g>
+    <g transform="translate(910 200)">
+      <rect width="230" height="168" rx="18" fill="#172026"/>
+      <text x="115" y="48" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">Publish</text>
+      <text x="115" y="88" text-anchor="middle" fill="#dfecea" font-size="15">GitHub Pages</text>
+      <text x="115" y="116" text-anchor="middle" fill="#dfecea" font-size="15">project reports</text>
+      <text x="115" y="142" text-anchor="middle" fill="#dfecea" font-size="15">reviewer journey</text>
+    </g>
+  </g>
+</svg>

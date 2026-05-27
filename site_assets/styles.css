@@ -206,7 +206,8 @@ h1 {
 
 .band,
 .projects-section,
-.roadmap {
+.roadmap,
+.visual-showcase {
   padding: clamp(44px, 7vw, 82px) clamp(18px, 5vw, 72px);
 }
 
@@ -238,10 +239,71 @@ h1 {
 
 .proof-grid article,
 .project-card,
-.chart-wrap {
+.chart-wrap,
+.diagram-card {
   border: 1px solid var(--line);
   border-radius: 8px;
   background: #fff;
+}
+
+.visual-showcase {
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+}
+
+.visual-showcase.alt {
+  background: var(--band);
+}
+
+.diagram-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.diagram-card {
+  display: grid;
+  gap: 12px;
+  padding: 14px;
+  color: var(--ink);
+  box-shadow: 0 10px 28px rgba(20, 36, 42, 0.08);
+}
+
+.diagram-card.large {
+  grid-row: span 2;
+}
+
+.diagram-card:hover {
+  text-decoration: none;
+  border-color: var(--teal);
+  transform: translateY(-2px);
+}
+
+.diagram-card img,
+.wide-diagram {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.diagram-card span {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.wide-diagram {
+  box-shadow: var(--shadow);
+}
+
+.report-hero {
+  min-height: auto;
+}
+
+.report-scorecard {
+  align-self: stretch;
 }
 
 .proof-grid article {
@@ -561,7 +623,8 @@ h1 {
   .project-grid,
   .proof-grid,
   .dashboard,
-  .steps {
+  .steps,
+  .diagram-grid {
     grid-template-columns: 1fr;
   }
 

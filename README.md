@@ -58,6 +58,32 @@ Start with these project folders:
 - `04_data_analytics_and_ai_automation/portfolio_project_academic_archive_automation/`  
   Data automation project showing archive extraction, duplicate cleanup, course summaries, and portfolio intelligence.
 
+## Visual Showcase
+
+The repository now includes a modern visual layer for reviewers:
+
+- Live website: `index.html`
+- Visual report: `reports/portfolio_showcase_report.html`
+- Shareable showcase PDF: `reports/Sowrav_Chowdhury_Flagship_Project_Showcase.pdf`
+- Markdown showcase report: `reports/FLAGSHIP_PROJECT_SHOWCASE.md`
+- Project one-pagers: `reports/PROJECT_ONE_PAGERS.md`
+- Flagship system diagram: `site_assets/diagrams/respiratory_ai_system.svg`
+- Project map: `site_assets/diagrams/portfolio_project_map.svg`
+- Evidence pipeline: `site_assets/diagrams/archive_to_portfolio_pipeline.svg`
+
+![Respiratory AI system architecture](site_assets/diagrams/respiratory_ai_system.svg)
+
+```mermaid
+flowchart LR
+  A["Academic evidence"] --> B["Clean and group"]
+  B --> C["Build flagship projects"]
+  C --> D["Visual reports"]
+  D --> E["GitHub portfolio"]
+  C --> F["Respiratory AI"]
+  C --> G["VLSI / CAD / Power / Control"]
+  C --> H["Data analytics automation"]
+```
+
 ## Strongest Portfolio Story
 
 The strongest GitHub narrative is:

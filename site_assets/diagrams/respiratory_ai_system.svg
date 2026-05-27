@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Respiratory AI system architecture</title>
+  <desc id="desc">A portfolio architecture diagram showing lung sound capture, edge acquisition, preprocessing, machine learning, validation, and clinical review.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f4fbf9"/>
+      <stop offset="1" stop-color="#eef4ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#087f75"/>
+      <stop offset="1" stop-color="#2b6f9f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#14242a" flood-opacity=".16"/>
+    </filter>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="10" refY="7" orient="auto">
+      <path d="M0,0 L12,7 L0,14 Z" fill="#2b6f9f"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="620" rx="34" fill="url(#bg)"/>
+  <text x="60" y="72" fill="#172026" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Biomedical Respiratory AI Portfolio System</text>
+  <text x="60" y="112" fill="#5f6b74" font-family="Arial, Helvetica, sans-serif" font-size="18">Low-cost sensing to reproducible clinical AI evidence, designed for master's admissions and healthcare data roles.</text>
+
+  <g filter="url(#shadow)" font-family="Arial, Helvetica, sans-serif">
+    <g transform="translate(60 180)">
+      <rect width="190" height="150" rx="18" fill="#fff" stroke="#d8e0e5"/>
+      <circle cx="72" cy="68" r="36" fill="#ecf8f5" stroke="#087f75" stroke-width="7"/>
+      <circle cx="118" cy="68" r="36" fill="#ecf8f5" stroke="#087f75" stroke-width="7"/>
+      <path d="M95 33 V103" stroke="#b24a3b" stroke-width="6" stroke-linecap="round"/>
+      <text x="22" y="126" fill="#172026" font-size="17" font-weight="700">Patient Lung Sounds</text>
+    </g>
+
+    <g transform="translate(310 180)">
+      <rect width="190" height="150" rx="18" fill="#fff" stroke="#d8e0e5"/>
+      <rect x="48" y="38" width="94" height="66" rx="10" fill="#eff6ff" stroke="#2b6f9f" stroke-width="4"/>
+      <circle cx="76" cy="72" r="8" fill="#087f75"/>
+      <circle cx="114" cy="72" r="8" fill="#b8872f"/>
+      <path d="M64 108 H126" stroke="#2b6f9f" stroke-width="5" stroke-linecap="round"/>
+      <text x="27" y="126" fill="#172026" font-size="17" font-weight="700">Edge Acquisition</text>
+    </g>
+
+    <g transform="translate(560 180)">
+      <rect width="190" height="150" rx="18" fill="#fff" stroke="#d8e0e5"/>
+      <path d="M26 86 C48 36 70 36 92 86 S136 136 164 64" fill="none" stroke="#087f75" stroke-width="7" stroke-linecap="round"/>
+      <path d="M30 106 H160" stroke="#b8872f" stroke-width="4" stroke-dasharray="8 8"/>
+      <text x="21" y="126" fill="#172026" font-size="17" font-weight="700">Preprocess + MFCC</text>
+    </g>
+
+    <g transform="translate(810 180)">
+      <rect width="190" height="150" rx="18" fill="#fff" stroke="#d8e0e5"/>
+      <rect x="42" y="36" width="106" height="72" rx="12" fill="#ecf8f5" stroke="#087f75" stroke-width="4"/>
+      <path d="M60 56 H130M60 74 H130M60 92 H130" stroke="#2b6f9f" stroke-width="6" stroke-linecap="round"/>
+      <text x="37" y="126" fill="#172026" font-size="17" font-weight="700">AI Classifier</text>
+    </g>
+
+    <g transform="translate(620 410)">
+      <rect width="230" height="130" rx="18" fill="#fff" stroke="#d8e0e5"/>
+      <path d="M42 88 L82 55 L118 74 L160 35 L190 58" fill="none" stroke="#087f75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="28" y="112" fill="#172026" font-size="17" font-weight="700">Evaluation Metrics</text>
+    </g>
+
+    <g transform="translate(910 410)">
+      <rect width="230" height="130" rx="18" fill="#fff" stroke="#d8e0e5"/>
+      <path d="M72 40 h74 a18 18 0 0 1 18 18 v36 h-110 v-36 a18 18 0 0 1 18-18z" fill="#fff7ed" stroke="#b8872f" stroke-width="5"/>
+      <path d="M92 70 h34M92 88 h62" stroke="#172026" stroke-width="5" stroke-linecap="round"/>
+      <text x="32" y="112" fill="#172026" font-size="17" font-weight="700">Clinical Review Note</text>
+    </g>
+  </g>
+
+  <g stroke="#2b6f9f" stroke-width="4" fill="none" marker-end="url(#arrow)" stroke-linecap="round">
+    <path d="M252 255 H294"/>
+    <path d="M502 255 H544"/>
+    <path d="M752 255 H794"/>
+    <path d="M905 332 C900 390 790 380 755 405"/>
+    <path d="M852 475 H894"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="60" y="402" width="430" height="138" rx="18" fill="#172026"/>
+    <text x="88" y="442" fill="#fff" font-size="22" font-weight="700">What reviewers should see fast</text>
+    <text x="88" y="478" fill="#dfecea" font-size="17">1. EEE hardware literacy</text>
+    <text x="88" y="506" fill="#dfecea" font-size="17">2. Signal processing and ML workflow</text>
+    <text x="88" y="534" fill="#dfecea" font-size="17">3. Clinical AI limitations and ethics</text>
+  </g>
+</svg>

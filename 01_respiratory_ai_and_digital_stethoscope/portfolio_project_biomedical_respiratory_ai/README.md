@@ -10,6 +10,8 @@ Can low-cost respiratory sound acquisition hardware support reproducible AI work
 
 ## Methodology To Build
 
+![Respiratory AI system architecture](../../site_assets/diagrams/respiratory_ai_system.svg)
+
 1. Document the acquisition pipeline: sensor/microphone, Raspberry Pi or microcontroller interface, sampling assumptions, noise sources, and storage format.
 2. Create a signal-processing workflow: denoising, segmentation, spectrogram/MFCC extraction, train-validation split, and quality checks.
 3. Reproduce a model baseline: 1D-CNN, CNN on spectrograms, or classical ML baseline with extracted features.
@@ -34,6 +36,7 @@ Can low-cost respiratory sound acquisition hardware support reproducible AI work
 ## GitHub Deliverables
 
 - `README.md` with research objective, architecture, methodology, results, and limitations.
+- `../../reports/portfolio_showcase_report.html` as the reviewer-facing visual report.
 - `notebooks/` for preprocessing and model experiments.
 - `src/` for reusable feature extraction/model code.
 - `docs/` for diagrams, ethics notes, and literature review summary.
@@ -49,7 +52,7 @@ Shows a research-ready bridge between biomedical signal processing, machine lear
 
 ## Next Build Steps
 
-- Add a clean architecture diagram.
+- Convert the architecture diagram into a results-driven model card after demo experiments are available.
 - Extract 2-3 representative figures from existing research documents.
 - Create a synthetic/demo notebook if raw patient data cannot be published.
 - Write a paper-style `docs/methodology.md`.
