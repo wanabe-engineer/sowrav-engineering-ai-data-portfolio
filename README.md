@@ -36,6 +36,28 @@ Current professional direction:
 - `99_evidence_inventory/`  
   Local file manifest, Gmail/Drive/Classroom analysis, GitHub upload notes, and recommended next upgrades.
 
+## Created Portfolio Projects
+
+Start with these project folders:
+
+- `01_respiratory_ai_and_digital_stethoscope/portfolio_project_biomedical_respiratory_ai/`  
+  Flagship biomedical AI research project: lung-sound acquisition, signal processing, model evaluation, and healthcare AI framing.
+
+- `02_embedded_systems_and_control_projects/portfolio_project_vlsi_logic_gate_design/`  
+  VLSI case study with CMOS logic, truth tables, layout/schematic evidence, and master's-level documentation direction.
+
+- `02_embedded_systems_and_control_projects/portfolio_project_electrical_services_design_cad/`  
+  CAD/design portfolio project using floor plan, electrical services drawings, load estimation, and design assumptions.
+
+- `02_embedded_systems_and_control_projects/portfolio_project_power_systems_simulation/`  
+  Power-system lab analysis project for formulas, plots, reports, and reproducible analysis notebooks.
+
+- `02_embedded_systems_and_control_projects/portfolio_project_control_systems_modeling/`  
+  Control-systems modeling project for transfer functions, step response, stability, and performance metrics.
+
+- `04_data_analytics_and_ai_automation/portfolio_project_academic_archive_automation/`  
+  Data automation project showing archive extraction, duplicate cleanup, course summaries, and portfolio intelligence.
+
 ## Strongest Portfolio Story
 
 The strongest GitHub narrative is:
